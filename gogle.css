@@ -1,0 +1,49 @@
+#main{
+    margin-left: 600px;
+    margin-top: 250px;
+}
+#search {
+    margin-left: 528px;
+    margin-top: 10px;
+  background-image: url(mic.png), url(ser.png);
+  background-position: right center, left center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10px 10px, 20px 20px;
+    border-radius: 50px;
+}
+#search::placeholder
+{
+    padding-left:25px;
+}
+#box1,#box2{
+  display:inline;  
+padding: 0;
+}
+#box1
+{
+    margin-left: 583px;
+    margin-top: 10px;
+    color: black;
+    background-color: gainsboro;
+}
+#box2
+{
+    margin-left: 0px;
+    margin-top: 10px;
+    color: black;
+    background-color: gainsboro;
+}
+#language
+{
+    margin-left: 520px;
+    margin-top: 10px;
+}
+#languageinside,#language
+{
+    display: inline;
+}
+#languageinside
+{
+    color:blue;
+    font-size:14px;
+}
